@@ -1,0 +1,231 @@
+
+@media(max-width:1020px){
+    .main{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .main-left{
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    .main-right{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .header-bottom{
+        flex-wrap: wrap;
+    }
+    .plan{
+        flex-wrap: wrap;
+    }
+    .plan-left{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .plan-right{
+        margin: 0 auto;
+    }
+}
+@media(max-width:950px){
+    .footer-cards{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:880px){
+    .nav-center{
+        display: none;
+    }
+    #bars{
+        display: block;
+    }
+    .nav-right{
+        display: flex;
+        align-items: center;
+    }
+    .nav-right i{
+        margin-right: 20px;
+    }
+    .main-left h1{
+        font-size: 60px;
+    }
+    #main-section{
+        padding-top: 80px;
+    }
+    .main{
+        padding-bottom: 0;
+    }
+    .index, .metrics{
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .index{
+        margin-bottom: 20px;
+    }
+    .index-left{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .index-left img{
+        display: block;
+       margin: 0 auto;
+    }
+    .index-right{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .index-right p, .metrics-left p{
+        color: #696871;
+        font-size: 20px;
+        width: 70%;
+        margin: 30px auto;
+        line-height: 30px;
+    }
+    .metrics-left, .metrics-right{
+        width: 100%;
+        text-align: center;
+    }
+    .metrics{
+        flex-direction: column-reverse;
+        margin-bottom: 10px;
+    }
+    .metrics-right img{
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .cards{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 80px 0;
+    }
+    .card{
+        width: 45%;
+    }
+    /* .footer-btn{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer-card{
+        width: 100%;
+    } */
+    .plan-left h1{
+        font-size: 50px;
+    }
+}
+@media(max-width:780px){
+    .card{
+        width: 65%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+}
+@media(max-width:580px){
+    .card{
+        width: 100%;
+    }
+    .card:not(:last-child){
+        margin-bottom: 30px;
+    }
+    .footer-cards{
+        margin-bottom: 80px;
+    }
+}
+@media(max-width:550px){
+    .navbar{
+        flex-direction: column;
+    }
+    .nav-right{
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    #main-section{
+        padding-top: 120px;
+    }
+    .main-left p{
+        margin: 25px 0;
+    }
+    .main-right img{
+        width: 100%;
+        height: 540px;
+        margin: 0 auto;
+    }
+    .main-right{
+        width: 100%;
+    }
+    .bottom-item{
+        width: 25%;
+    }
+    .index-left{
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .index-left img{
+        width: 80%;
+        height: auto;
+        margin-bottom: 35px;
+    }
+    .metrics-left button{
+        margin: 0 auto;
+        margin-bottom: 30px;
+        display: block;
+    }
+    .metrics-right img{
+        width: 80%;
+        height: auto;
+    }
+    .index-right p, .metrics-left p{
+        width: 100%;
+    }
+    .plan-left h1{
+        font-size: 40px;
+    }
+    .card{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 45px;
+    }
+}
+@media(max-width:430px){
+    #main-section{
+        padding-top: 120px;
+    }
+    .main-left h1{
+        font-size: 50px;
+    }
+    .main-right{
+        width: 100%;
+    }
+    .main-right img{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .bottom-item{
+        width: 100%;
+    }
+    .index-right h1{
+        font-size: 35px;
+    }
+    .plan-right{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .plan-btn1{
+        width: 120px;
+    }
+    .plan-btn2{
+        width: 145px;
+        
+    }
+    .footer-card{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer-card h1{
+        font-size: 50px;
+    }
+}
+    

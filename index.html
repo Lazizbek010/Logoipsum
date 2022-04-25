@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="uz">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Logoipsum</title>
+    <!-- SHORTCUT ICON -->
+    <link rel="shortcut icon" href="images/logo-shortcut.png" type="image/x-icon" width="120px">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
 </head>
-
 <body>
+    <!-- FIGMA LINK ==> https://www.figma.com/file/I5bBQXIwiGVcokkj9bvsVp/Logoipsum-(Copy) -->
     <header>
+        <nav id="fixed-nav">
         <div class="container">
-            <nav>
                 <div class="navbar">
                     <div class="nav-left">
                         <a href="index.html">
-                            <img src="images/Logo Navbar.png" alt="">
+                            <img  src="images/Logo Navbar.png" alt="">
                         </a>
                     </div>
                     <div class="nav-center">
@@ -28,30 +32,48 @@
                             <li><a href="#">Blog</a></li>
                         </ul>
                     </div>
+                    
                     <div class="nav-right">
+                        <i id="bars" class="fa-solid fa-bars fa-3x"></i>
                         <button>Get Started</button>
                     </div>
                 </div>
             </nav>
+            <!-- RESPONSIVE NAVBAR Start -->
+            <div class="res-nav">
+                <h1 class="close">x</h1>
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <!-- RESPONSIVE NAVBAR End -->
             <!-- main -->
-            <div class="main">
-                <div class="main-left">
-                    <h1>Grow your subscription business</h1>
-                    <p>Outcome-centered products that reduce churn, optimize pricing, and grow your subscription
-                        business end-to-end.</p>
-                    <div class="buttons">
-                        <div><button>Get Started</button></div>
-                        <div class="main-arrow">
-                            <a href="#"><img src="images/arrow-down.png" alt=""></a>
+          <div class="container">
+            <section id="main-section">
+                <div class="main">
+                    <div class="main-left">
+                        <h1>Grow your subscription business</h1>
+                        <p>Outcome-centered products that reduce churn, optimize pricing, and grow your subscription
+                            business end-to-end.</p>
+                        <div class="buttons">
+                            <div><button>Get Started</button></div>
+                            <div class="main-arrow">
+                                <a href="#"><img src="images/arrow-down.png" alt=""></a>
+                            </div>
                         </div>
                     </div>
+                    <div class="main-right">
+                        <img src="images/main-img.png" alt="">
+                    </div>
                 </div>
-                <div class="main-right">
-                    <img src="images/main-img.png" alt="">
-                </div>
-            </div>
+               </section>
+          </div>
             <!-- main -->
             <!--header bottom -->
+           <div class="container">
             <div class="header-bottom">
                 <div class="bottom-item">
                     <img src="images/Group.png" alt="">
@@ -69,11 +91,12 @@
                     <img src="images/Group (4).png" alt="">
                 </div>
             </div>
+           </div>
             <!--header bottom -->
         </div>
     </header>
     <!-- index vs metrics-->
-    <div class="container">
+     <div class="container">
         <div class="index">
             <div class="index-left">
                 <img src="images/boy.png" alt="">
@@ -95,7 +118,7 @@
                 <img src="images/mister.png" alt="">
             </div>
         </div>
-    </div>
+    </div> 
     <!-- index vs metrics-->
     <!-- cards -->
     <div class="container">
@@ -166,9 +189,7 @@
     </div>
     <!-- footer -->
 
-
-
-
+    <!-- Javascript -->
+    <script src="app.js"></script>
 </body>
-
 </html>

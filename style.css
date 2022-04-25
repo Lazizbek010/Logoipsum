@@ -12,6 +12,16 @@ a{
     padding: 0 10px;
 }
 /* ----------------  navbar  ---------------- */
+#fixed-nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 20px 1px rgba(49, 48, 48, 0.4);
+    background-color: rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+    z-index: 50;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -50,7 +60,52 @@ a{
 .nav-right button:hover{
     background-color: #C31A12;
 }
+#bars{
+    display: none;
+    cursor: pointer;
+}
+.bar:not(:last-child){
+    margin-bottom: 7px;
+}
+/* ===== RES NAV ===== */
+.res-nav{
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    backdrop-filter: blur(5px);
+    z-index: 100;
+    padding: 0 50px;
+    padding-top: 90px;
+    transform: translate(-110%);
+    transition: 0.3s linear;
+}
+.close{
+    text-align: end;
+    margin-bottom: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 65px;
+}
+.shownav{
+    transform: translate(0%);
+}
+.res-nav ul li{
+    margin-bottom: 25px;
+    list-style: none;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #fff;
+}
+.res-nav ul li a{
+    font-size: 25px;
+    color: #fff;
+}
 /* ------------  main  ----------------- */
+#main-section{
+    padding-top: 113px;
+}
 .main{
     display: flex;
     justify-content: space-between;
@@ -261,7 +316,7 @@ a{
     background-color: #C31A12;
 }
 .plan-btn2{
-    width: 175px;
+    width: 175px; 
     font-size: 16px;
     color: #19191B;
     border: none;
@@ -275,27 +330,17 @@ transform: rotate(360deg);
 .footer-cards{
     margin-bottom: 150px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
 }
 .footer-card{
-    flex-basis: 32%;
+    width: 330px;
     background-color: #EAE9F2;
     padding: 40px 34px;
     text-align: center;
     box-sizing: border-box;
     border-radius: 10px;
     transition: 1s;
-}
-.footer-card:hover{
-    background-color: #FF7143;
-    transform: scale(1.1, 1.1);
-}
-.footer-card:hover h1, .footer-card:hover p{
-    color: #fff;
-}
-.footer-card:hover .footer-btn{
-    background-color: #9F3919;
-    color: #fff;
 }
 .footer-card p{
     color: #696871;
@@ -313,15 +358,25 @@ transform: rotate(360deg);
 .footer-btn{
     background-color: #fff;
     color: #5454D4;
-    padding: 19px 42px;
+    padding: 19px 0;
     font-size: 17px;
     border: none;
-    width: 305px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 35px;
     border-radius: 10px;
 }
-
+.footer-card:hover{
+    background-color: #FF7143;
+    transform: scale(1.1, 1.1);
+}
+.footer-card:hover h1, .footer-card:hover p{
+    color: #fff;
+}
+.footer-card:hover .footer-btn{
+    background-color: #9F3919;
+    color: #fff;
+}
 
 
 
