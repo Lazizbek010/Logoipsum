@@ -14,7 +14,13 @@ a{
 html{
     scroll-behavior: smooth;
 }
-#features, #blog, #pricing{
+#features{
+    padding-top: 20px;
+}
+#blog{
+    padding-top: 40px;
+}
+#pricing{
     padding-top: 120px;
 }
 /* ----------------  navbar  ---------------- */
