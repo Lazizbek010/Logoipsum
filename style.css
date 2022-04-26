@@ -90,14 +90,14 @@ html{
     backdrop-filter: blur(5px);
     z-index: 100;
     padding: 0 50px;
-    padding-top: 70px;
+    padding-top: 20px;
     transform: translate(-110%);
     transition: 0.3s linear;
     overflow: scroll;
 }
 .close{
     text-align: end;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #fff;
     cursor: pointer;
     font-size: 65px;
@@ -109,7 +109,7 @@ html{
     padding-bottom: 20px;
 }
 .res-nav ul li{
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     list-style: none;
     padding-bottom: 10px;
     border-bottom: 5px solid #fff;
