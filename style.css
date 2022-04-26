@@ -11,6 +11,12 @@ a{
     margin: 0 auto;
     padding: 0 10px;
 }
+html{
+    scroll-behavior: smooth;
+}
+#features, #blog, #pricing{
+    padding-top: 120px;
+}
 /* ----------------  navbar  ---------------- */
 #fixed-nav{
     position: fixed;

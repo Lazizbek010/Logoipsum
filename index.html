@@ -15,7 +15,7 @@
 </head>
 <body>
     <!-- FIGMA LINK ==> https://www.figma.com/file/I5bBQXIwiGVcokkj9bvsVp/Logoipsum-(Copy) -->
-    <header>
+    <header id="home">
         <nav id="fixed-nav">
         <div class="container">
                 <div class="navbar">
@@ -26,10 +26,10 @@
                     </div>
                     <div class="nav-center">
                         <ul>
-                            <li><a class="active" href="#">Home</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a class="active" href="#home">Home</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#blog">Blog</a></li>
                         </ul>
                     </div>
                     
@@ -43,10 +43,10 @@
             <div class="res-nav">
                 <h1 class="close">x</h1>
                 <ul>
-                    <li><a class="active" href="#">Home</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#blog">Blog</a></li>
                 </ul>
             </div>
             <!-- RESPONSIVE NAVBAR End -->
@@ -96,56 +96,62 @@
         </div>
     </header>
     <!-- index vs metrics-->
-     <div class="container">
-        <div class="index">
-            <div class="index-left">
-                <img src="images/boy.png" alt="">
-            </div>
-            <div class="index-right">
-                <h1>Subscription index</h1>
-                <p>A daily dataset to keep you up to date on subscription market trends and what's happening in your
-                    vertical.</p>
-                <button>Learn More</button>
-            </div>
+    <section id="features">
+        <div class="features">
+            <div class="container">
+                <div class="index">
+                    <div class="index-left">
+                        <img src="images/boy.png" alt="">
+                    </div>
+                    <div class="index-right">
+                        <h1>Subscription index</h1>
+                        <p>A daily dataset to keep you up to date on subscription market trends and what's happening in your
+                            vertical.</p>
+                        <button>Learn More</button>
+                    </div>
+                </div>
+                <div class="metrics">
+                    <div class="metrics-left">
+                        <h1>In-depth metrics</h1>
+                        <p>Accurate, real-time reporting at your fingertips. Getting data has never been easier.</p>
+                        <button>Learn More</button>
+                    </div>
+                    <div class="metrics-right">
+                        <img src="images/mister.png" alt="">
+                    </div>
+                </div>
+            </div> 
         </div>
-        <div class="metrics">
-            <div class="metrics-left">
-                <h1>In-depth metrics</h1>
-                <p>Accurate, real-time reporting at your fingertips. Getting data has never been easier.</p>
-                <button>Learn More</button>
-            </div>
-            <div class="metrics-right">
-                <img src="images/mister.png" alt="">
-            </div>
-        </div>
-    </div> 
+    </section>
     <!-- index vs metrics-->
     <!-- cards -->
-    <div class="container">
-        <div class="cards">
-            <div class="card">
-                <div class="card-img">
-                    <img src="images/Icon 001.png" alt="">
+    <section id="blog">
+        <div class="container">
+            <div class="cards">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/Icon 001.png" alt="">
+                    </div>
+                    <h1>Benchmarks</h1>
+                    <p>See how you stack up against comparable companies in similar stages.</p>
                 </div>
-                <h1>Benchmarks</h1>
-                <p>See how you stack up against comparable companies in similar stages.</p>
-            </div>
-            <div class="card">
-                <div class="card-img">
-                    <img src="images/Icon 002.png" alt="">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/Icon 002.png" alt="">
+                    </div>
+                    <h1>Pricing Audit</h1>
+                    <p>Benchmark the health of your monetization and pricing strategy.</p>
                 </div>
-                <h1>Pricing Audit</h1>
-                <p>Benchmark the health of your monetization and pricing strategy.</p>
-            </div>
-            <div class="card">
-                <div class="card-img">
-                    <img src="images/Icon 003.png" alt="">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/Icon 003.png" alt="">
+                    </div>
+                    <h1>Retention Audit</h1>
+                    <p>Audit where revenue leakage exists and where you can increase retention.</p>
                 </div>
-                <h1>Retention Audit</h1>
-                <p>Audit where revenue leakage exists and where you can increase retention.</p>
             </div>
         </div>
-    </div>
+    </section>
     <!-- cards -->
     <!-- footer -->
     <div class="container">
@@ -159,34 +165,36 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="footer-cards">
-            <div class="footer-card">
-                <p>Starter</p>
-                <h1>Free</h1>
-                <p>1 Website</p>
-                <p>5 GB Hosting</p>
-                <p>Limited Support</p>
-                <button class="footer-btn">Get Started</button>
-            </div>
-            <div class="footer-card">
-                <p>Premium</p>
-                <h1>$29<span>/month</span> </h1>
-                <p>10 Website</p>
-                <p>15 GB Hosting</p>
-                <p>Premium Support</p>
-                <button class="footer-btn">Get Started</button>
-            </div>
-            <div class="footer-card">
-                <p>Enterprise</p>
-                <h1>$49<span>/month</span> </h1>
-                <p>Unlimited Website</p>
-                <p>50 GB Hosting</p>
-                <p>Premium Support</p>
-                <button class="footer-btn">Get Started</button>
+    <section id="pricing">
+        <div class="container">
+            <div class="footer-cards">
+                <div class="footer-card">
+                    <p>Starter</p>
+                    <h1>Free</h1>
+                    <p>1 Website</p>
+                    <p>5 GB Hosting</p>
+                    <p>Limited Support</p>
+                    <button class="footer-btn">Get Started</button>
+                </div>
+                <div class="footer-card">
+                    <p>Premium</p>
+                    <h1>$29<span>/month</span> </h1>
+                    <p>10 Website</p>
+                    <p>15 GB Hosting</p>
+                    <p>Premium Support</p>
+                    <button class="footer-btn">Get Started</button>
+                </div>
+                <div class="footer-card">
+                    <p>Enterprise</p>
+                    <h1>$49<span>/month</span> </h1>
+                    <p>Unlimited Website</p>
+                    <p>50 GB Hosting</p>
+                    <p>Premium Support</p>
+                    <button class="footer-btn">Get Started</button>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- footer -->
 
     <!-- Javascript -->
