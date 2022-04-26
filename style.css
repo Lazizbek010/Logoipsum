@@ -90,7 +90,7 @@ html{
     backdrop-filter: blur(5px);
     z-index: 100;
     padding: 0 50px;
-    padding-top: 90px;
+    padding-top: 70px;
     transform: translate(-110%);
     transition: 0.3s linear;
 }
@@ -103,6 +103,9 @@ html{
 }
 .shownav{
     transform: translate(0%);
+}
+.res-nav ul{
+    padding-bottom: 20px;
 }
 .res-nav ul li{
     margin-bottom: 25px;
