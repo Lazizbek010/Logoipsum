@@ -93,6 +93,7 @@ html{
     padding-top: 70px;
     transform: translate(-110%);
     transition: 0.3s linear;
+    overflow: scroll;
 }
 .close{
     text-align: end;
